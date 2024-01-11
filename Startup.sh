@@ -9,8 +9,16 @@ OLD_STRING_2="swiftgg24.framer.ai"
 NEW_STRING_2="letsvisionos24.swiftgg.team"
 
 # 定义第三个要替换的字符串及其替换内容
-OLD_STRING_3="swiftgg24.framer.ai/home-zh"
-NEW_STRING_3="letsvisionos24.swiftgg.team/cn"
+OLD_STRING_3="home-zh"
+NEW_STRING_3="cn"
+
+# 定义第四个要替换的字符串及其替换内容
+OLD_STRING_4="Made with Framer"
+NEW_STRING_4="Made with love - SwiftGG"
+
+# 定义要删除的标签
+OLD_TAG="<div id=\"__framer-badge-container\"></div>"
+NEW_TAG=""
 
 # 定义要搜索的文件类型
 FILE_TYPES=("html" "css" "js" "mjs" "xml")
@@ -22,6 +30,8 @@ for type in "${FILE_TYPES[@]}"; do
     find . -type f -name "*.$type" ! -path './index.html' ! -path './.git/*' ! -name '.gitignore' -exec sed -i '' "s#${OLD_STRING_1}#${NEW_STRING_1}#g" {} +
     find . -type f -name "*.$type" ! -path './index.html' ! -path './.git/*' ! -name '.gitignore' -exec sed -i '' "s#${OLD_STRING_2}#${NEW_STRING_2}#g" {} +
     find . -type f -name "*.$type" ! -path './index.html' ! -path './.git/*' ! -name '.gitignore' -exec sed -i '' "s#${OLD_STRING_3}#${NEW_STRING_3}#g" {} +
+    find . -type f -name "*.$type" ! -path './index.html' ! -path './.git/*' ! -name '.gitignore' -exec sed -i '' "s#${OLD_STRING_4}#${NEW_STRING_4}#g" {} +
+    find . -type f -name "*.$type" ! -path './index.html' ! -path './.git/*' ! -name '.gitignore' -exec sed -i '' "s#${OLD_TAG}#${NEW_TAG}#g" {} +
 done
 
 echo "String replacement completed."
