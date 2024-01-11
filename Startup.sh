@@ -40,4 +40,15 @@ if [ -d "cn" ] && [ -f "cn/home-zh.html" ]; then
     echo "Renamed 'cn/home-zh.html' to 'cn/index.html'"
 fi
 
+# 检查并替换 favicon 文件
+SOURCE_FAVICON="default-favicon.v3.png"
+TARGET_FAVICON="framerusercontent.com/sites/icons/default-favicon.v3.png"
+
+if [ -f "$SOURCE_FAVICON" ] && [ -f "$TARGET_FAVICON" ]; then
+    if ! cmp -s "$SOURCE_FAVICON" "$TARGET_FAVICON"; then
+        cp "$SOURCE_FAVICON" "$TARGET_FAVICON"
+        echo "Replaced favicon file."
+    fi
+fi
+
 echo "String replacement completed."
