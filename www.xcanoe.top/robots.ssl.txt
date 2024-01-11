@@ -1,0 +1,12 @@
+
+    # *
+    User-agent: *
+    Allow: /
+  
+    # Host
+    Host: https://xcanoe.top
+  
+    # Sitemaps
+    Sitemap: https://xcanoe.top/sitemap.xml
+  
+    
