@@ -34,4 +34,10 @@ for type in "${FILE_TYPES[@]}"; do
     find . -type f -name "*.$type" ! -path './index.html' ! -path './.git/*' ! -name '.gitignore' -exec sed -i '' "s#${OLD_TAG}#${NEW_TAG}#g" {} +
 done
 
+# 检查是否存在 cn 目录以及 cn 目录下的 home-zh.html 文件
+if [ -d "cn" ] && [ -f "cn/home-zh.html" ]; then
+    mv "cn/home-zh.html" "cn/index.html"
+    echo "Renamed 'cn/home-zh.html' to 'cn/index.html'"
+fi
+
 echo "String replacement completed."
