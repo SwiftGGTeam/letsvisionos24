@@ -51,4 +51,24 @@ if [ -f "$SOURCE_FAVICON" ] && [ -f "$TARGET_FAVICON" ]; then
     fi
 fi
 
+# 增加新的 meta 标签到 cn/index.html
+CN_INDEX="cn/index.html"
+if [ -f "$CN_INDEX" ]; then
+    sed -i '' "/<meta property=\"og:description\" content=\"Made with love - SwiftGG\">/a\\
+<meta property=\"og:image\" content=\"https://letsvisionos24.swiftgg.team/image_cn.jpg\" />" "$CN_INDEX"
+    sed -i '' "/<meta name=\"twitter:description\" content=\"Made with love - SwiftGG\">/a\\
+<meta name=\"twitter:image\" content=\"https://letsvisionos24.swiftgg.team/image_cn.jpg\" />" "$CN_INDEX"
+    echo "Added new meta tags to $CN_INDEX"
+fi
+
+# 增加新的 meta 标签到 en/index.html
+EN_INDEX="en/index.html"
+if [ -f "$EN_INDEX" ]; then
+    sed -i '' "/<meta property=\"og:description\" content=\"Made with love - SwiftGG\">/a\\
+<meta property=\"og:image\" content=\"https://letsvisionos24.swiftgg.team/image_en.jpg\" />" "$EN_INDEX"
+    sed -i '' "/<meta name=\"twitter:description\" content=\"Made with love - SwiftGG\">/a\\
+<meta name=\"twitter:image\" content=\"https://letsvisionos24.swiftgg.team/image_en.jpg\" />" "$EN_INDEX"
+    echo "Added new meta tags to $EN_INDEX"
+fi
+
 echo "String replacement completed."
