@@ -1,2 +1,0 @@
-import{na as r}from"./chunk-YAAEEQK2.mjs";r.loadFonts([]);var n=[],s=[".framer-cFVdx .framer-styles-preset-i3m7js:not(.rich-text-wrapper), .framer-cFVdx .framer-styles-preset-i3m7js.rich-text-wrapper a { --framer-link-current-text-decoration: underline; --framer-link-hover-text-decoration: underline; --framer-link-text-color: #ffffff; --framer-link-text-decoration: none; }"],i="framer-cFVdx";export{n as a,s as b,i as c};
-//# sourceMappingURL=chunk-DPPWYDGD.mjs.map
