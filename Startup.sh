@@ -20,6 +20,11 @@ NEW_STRING_4="Made with love - SwiftGG"
 OLD_TAG="<div id=\"__framer-badge-container\"></div>"
 NEW_TAG=""
 
+OLD_PATH=".mjs\")),path:\"/cn\"}"
+NEW_PATH=".mjs\")),path:\"/\"}"
+
+
+
 # 定义要搜索的文件类型
 FILE_TYPES=("html" "css" "js" "mjs" "xml")
 
@@ -32,6 +37,7 @@ for type in "${FILE_TYPES[@]}"; do
     find . -type f -name "*.$type" ! -path './index.html' ! -path './.git/*' ! -name '.gitignore' -exec sed -i '' "s#${OLD_STRING_3}#${NEW_STRING_3}#g" {} +
     find . -type f -name "*.$type" ! -path './index.html' ! -path './.git/*' ! -name '.gitignore' -exec sed -i '' "s#${OLD_STRING_4}#${NEW_STRING_4}#g" {} +
     find . -type f -name "*.$type" ! -path './index.html' ! -path './.git/*' ! -name '.gitignore' -exec sed -i '' "s#${OLD_TAG}#${NEW_TAG}#g" {} +
+    find . -type f -name "*.$type" ! -path './index.html' ! -path './.git/*' ! -name '.gitignore' -exec sed -i '' "s#${OLD_PATH}#${NEW_PATH}#g" {} +
 done
 
 # 检查是否存在 cn 目录以及 cn 目录下的 home-zh.html 文件
