@@ -1,0 +1,20 @@
+User-agent: Bingbot
+Crawl-delay: 20
+Allow: /
+Disallow: /series/optout/
+Disallow: /account/
+# To avoid having stats/track/ under each event GET
+Disallow: /event/
+
+# Blocking Amazonbot due to lack of crawl-delay support.
+User-agent: Amazonbot
+Allow: /
+# Disallow paths to reduce high traffic (87% of total).
+Disallow: /user/
+Disallow: /event/
+
+User-agent: *
+Crawl-delay: 5
+Allow: /
+Disallow: /series/optout/
+Disallow: /account/

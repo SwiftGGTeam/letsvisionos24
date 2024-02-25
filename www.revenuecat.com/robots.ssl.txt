@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.revenuecat.com/sitemap-index.xml
+Host: https://www.revenuecat.com

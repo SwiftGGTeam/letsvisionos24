@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /app/
+Disallow: /apps/
+Disallow: /auto-provisioning/
+Disallow: /billing/
+Disallow: /build/
+Disallow: /dashboard/
+Disallow: /floflesebutri/
+Disallow: /getting-started/
+Disallow: /login/
+Disallow: /maintenance/
+Disallow: /oauth/
+Disallow: /pricing-before-06-2020/
+Disallow: /settings/
+Disallow: /signup/
+Disallow: /survey/
+Disallow: /teams/

@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Disallow: /invite/
+Disallow: /*/invite/
+Disallow: /templates/search?query=*
+Disallow: /lp/webinars/
+Disallow: /lp/webinars/*
+Disallow: /_vercel/insights/view
+Disallow: /embed/*
+
+Sitemap: https://www.notion.so/sitemap.xml
+Sitemap: https://sitemaps.notion.so/sitemap.xml
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Barkrowler
+Disallow: /

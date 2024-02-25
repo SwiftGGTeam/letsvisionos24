@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /hybrid/
+Disallow: /www/login
+Disallow: /www/recharge
+Disallow: /www

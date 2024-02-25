@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- WARNING: This is a generated file. Do not touch! -->
+<!-- Run `notion front codegen-sitemap` to rebuild. -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-root.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-blog.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-help.xml</loc>
+	</sitemap>
+</sitemapindex>
