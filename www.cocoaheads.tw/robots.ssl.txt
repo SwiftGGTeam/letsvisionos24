@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.cocoaheads.tw/sitemap.xml
