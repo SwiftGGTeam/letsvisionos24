@@ -1,20 +1,41 @@
+User-agent: Googlebot
+Allow: /
+Disallow: /series/optout/
+Disallow: /account/
+Disallow: /api/
+Disallow: /search/
+
 User-agent: Bingbot
 Crawl-delay: 20
 Allow: /
 Disallow: /series/optout/
 Disallow: /account/
-# To avoid having stats/track/ under each event GET
+Disallow: /api/
+Disallow: /search/
+Disallow: /user/
 Disallow: /event/
+Disallow: /calendar/
 
 # Blocking Amazonbot due to lack of crawl-delay support.
 User-agent: Amazonbot
 Allow: /
-# Disallow paths to reduce high traffic (87% of total).
+Disallow: /series/optout/
+Disallow: /account/
+Disallow: /api/
+Disallow: /search/
 Disallow: /user/
 Disallow: /event/
+Disallow: /calendar/
 
 User-agent: *
+# Wait 5 second between successive requests.
 Crawl-delay: 5
 Allow: /
 Disallow: /series/optout/
 Disallow: /account/
+# Apply in the near future.
+# Disallow: /api/
+# Disallow: /search/
+# Disallow: /user/
+# Disallow: /event/
+# Disallow: /calendar/

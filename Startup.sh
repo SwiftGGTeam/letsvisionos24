@@ -61,9 +61,9 @@ fi
 CN_INDEX="cn/index.html"
 if [ -f "$CN_INDEX" ]; then
     sed -i '' "/<meta property=\"og:description\" content=\"Made with love - SwiftGG\">/a\\
-<meta property=\"og:image\" content=\"https://letsvisionos24.swiftgg.team/image_cn.jpg\" />" "$CN_INDEX"
+<meta property=\"og:image\" content=\"https://i.typlog.com/xrealityzonecn/8290698472_141318.jpg\" />" "$CN_INDEX"
     sed -i '' "/<meta name=\"twitter:description\" content=\"Made with love - SwiftGG\">/a\\
-<meta name=\"twitter:image\" content=\"https://letsvisionos24.swiftgg.team/image_cn.jpg\" />" "$CN_INDEX"
+<meta name=\"twitter:image\" content=\"https://i.typlog.com/xrealityzonecn/8290698472_141318.jpg\" />" "$CN_INDEX"
     echo "Added new meta tags to $CN_INDEX"
 fi
 
@@ -71,9 +71,9 @@ fi
 EN_INDEX="en/index.html"
 if [ -f "$EN_INDEX" ]; then
     sed -i '' "/<meta property=\"og:description\" content=\"Made with love - SwiftGG\">/a\\
-<meta property=\"og:image\" content=\"https://letsvisionos24.swiftgg.team/image_en.jpg\" />" "$EN_INDEX"
+<meta property=\"og:image\" content=\"https://i.typlog.com/xrealityzonecn/8290698787_891035.png\" />" "$EN_INDEX"
     sed -i '' "/<meta name=\"twitter:description\" content=\"Made with love - SwiftGG\">/a\\
-<meta name=\"twitter:image\" content=\"https://letsvisionos24.swiftgg.team/image_en.jpg\" />" "$EN_INDEX"
+<meta name=\"twitter:image\" content=\"https://i.typlog.com/xrealityzonecn/8290698787_891035.png\" />" "$EN_INDEX"
     echo "Added new meta tags to $EN_INDEX"
 fi
 
