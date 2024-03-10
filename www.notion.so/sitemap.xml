@@ -3,12 +3,75 @@
 <!-- Run `notion front codegen-sitemap` to rebuild. -->
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>https://www.notion.so/sitemaps/sitemap-root.xml</loc>
-	</sitemap>
-	<sitemap>
 		<loc>https://www.notion.so/sitemaps/sitemap-blog.xml</loc>
 	</sitemap>
 	<sitemap>
 		<loc>https://www.notion.so/sitemaps/sitemap-help.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-root.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-blog-ko-kr.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-help-ko-kr.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-root-ko-kr.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-blog-ja-jp.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-help-ja-jp.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-root-ja-jp.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-blog-fr-fr.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-help-fr-fr.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-root-fr-fr.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-blog-de-de.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-help-de-de.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-root-de-de.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-blog-es-es.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-help-es-es.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-root-es-es.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-blog-es-la.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-help-es-la.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-root-es-la.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-blog-pt-br.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-help-pt-br.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.notion.so/sitemaps/sitemap-root-pt-br.xml</loc>
 	</sitemap>
 </sitemapindex>

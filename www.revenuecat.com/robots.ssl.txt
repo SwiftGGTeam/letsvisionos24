@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /*.pdf
 Sitemap: https://www.revenuecat.com/sitemap-index.xml
 Host: https://www.revenuecat.com

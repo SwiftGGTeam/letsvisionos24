@@ -1,0 +1,22 @@
+User-agent:*
+Sitemap: https://www.shengwang.cn/sitemap.xml
+Disallow:/*?_ga=
+Disallow:/*?utm_source=
+Disallow:/*?hmsr=
+Disallow:/*?_360safe=
+Disallow:/*?gclid=
+Disallow:/*?p=
+Disallow:/*?_360safeparam=
+Disallow:/*?_=
+Disallow:/*?p=
+Disallow:/*?placement=
+Disallow:/*?from=
+Disallow:/*?_t_t_t=
+Disallow:/*?utm_medium=
+Disallow:/*?mType=
+Disallow:/*?t=
+Disallow:/*?packageId=
+Disallow:/*?idx=
+Disallow:/*?page=
+Disallow:/*?type=
+Disallow:/wp-includes/
