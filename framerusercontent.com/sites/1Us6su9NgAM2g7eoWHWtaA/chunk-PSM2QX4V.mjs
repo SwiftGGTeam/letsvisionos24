@@ -1,2 +1,0 @@
-import{ra as r}from"./chunk-REI4RGWI.mjs";r.loadFonts([]);var n=[],s=[".framer-iQ0PO .framer-styles-preset-i3m7js:not(.rich-text-wrapper), .framer-iQ0PO .framer-styles-preset-i3m7js.rich-text-wrapper a { --framer-link-current-text-decoration: underline; --framer-link-hover-text-decoration: underline; --framer-link-text-decoration: none; }"],i="framer-iQ0PO";export{n as a,s as b,i as c};
-//# sourceMappingURL=chunk-PSM2QX4V.mjs.map
