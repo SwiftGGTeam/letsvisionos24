@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /api/
+Disallow: /health/
+Disallow: /newsletter/
+Disallow: /gql/
+Disallow: /triggers/
+Disallow: /u/
+Disallow: /viewserver-health/
+Crawl-delay: 2
+
+Host: www.startupgrind.com
+Sitemap: https://www.startupgrind.com/sitemap.xml
+
