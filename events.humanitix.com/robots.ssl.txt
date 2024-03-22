@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+#Sitemaps
+Sitemap: https://events.humanitix.com/sitemaps/sitemap.xml

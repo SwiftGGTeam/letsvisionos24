@@ -1,6 +1,7 @@
 # we use Shopify as our ecommerce platform
 
 User-agent: *
+Disallow: /a/downloads/-/*
 Disallow: /admin
 Disallow: /cart
 Disallow: /orders
@@ -51,12 +52,14 @@ Disallow: /*?*oseid=*
 Disallow: /*preview_theme_id*
 Disallow: /*preview_script_id*
 Disallow: /services/login_with_shop
+Disallow: /cdn/wpm/*.js
 
 User-agent: Nutch
 Disallow: /
 
 User-agent: AhrefsBot
 Crawl-delay: 10
+Disallow: /a/downloads/-/*
 Disallow: /admin
 Disallow: /cart
 Disallow: /orders
@@ -97,6 +100,7 @@ Sitemap: https://jsaux.com/sitemap.xml
 
 User-agent: AhrefsSiteAudit
 Crawl-delay: 10
+Disallow: /a/downloads/-/*
 Disallow: /admin
 Disallow: /cart
 Disallow: /orders
@@ -136,7 +140,7 @@ Disallow: /services/login_with_shop
 Sitemap: https://jsaux.com/sitemap.xml
 
 User-agent: MJ12bot
-Crawl-Delay: 10
+Crawl-delay: 10
 
 User-agent: Pinterest
 Crawl-delay: 1
